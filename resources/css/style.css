@@ -1,0 +1,129 @@
+/* =============================================
+Basic setup
+============================================= */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444;
+  text-rendering: optimizeLegibility;
+}
+
+/* =============================================
+Reusable component
+============================================= */
+main {
+  flex: 1;
+  padding: 30px;
+}
+.container {
+  display: flex;
+}
+.title {
+  border-bottom: 1px solid #ccc;
+}
+/* typography */
+h2 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+h3 {
+  font-weight: 400;
+  margin: 20px 0;
+}
+h6 {
+  color: rgba(255, 255, 255, 0.301);
+  padding: 20px 0;
+}
+/* button */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 30px;
+  color: #fff;
+  border-radius: 10px;
+  background-image: linear-gradient(to right bottom, #045db0, #04deda);
+  transition: all 0.3s;
+}
+.btn:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transform: translateY(-3px);
+}
+/* =============================================
+Nav section
+============================================= */
+nav {
+  flex: 0 0 20%;
+  height: 100vh;
+  padding: 20px 30px;
+  background-image: linear-gradient(150deg, #0a0257, #04adb0);
+}
+.logo-box {
+  color: #fff;
+}
+.nav-menu {
+  list-style: none;
+}
+.nav-menu li {
+  display: block;
+}
+.nav-menu li a:link,
+.nav-menu li a:visited {
+  display: block;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 10px 0;
+
+  color: rgba(255, 255, 255, 0.705);
+  transition: all 0.3s;
+}
+.nav-menu li a:hover {
+  color: #fff;
+}
+/* =============================================
+main section interface page
+============================================= */
+.main-content form div {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.main-content p {
+  padding: 20px 0;
+}
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
+/* =============================================
+
+============================================= */
